@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    
+    height: 80px;
+    width: 100%;
+    background-color: lightgray;
+}
+.nav{
+    
+    height: 70px;
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{
+   
+    height: 82px;
+    width: 10%;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo h3{
+    color: rgb(22, 118, 156);
+    font-size:xx-large;
+}
+span{
+    color: red;
+}
+.sec-nav{
+
+    height: 60px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.thi-nav{
+    
+    height: 60px;
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.thi-nav button{
+    height: 60px;
+    width: 40%;
+    border-radius: 30px;
+    background-color: rgb(225, 9, 77);
+    border: none;
+    color: white;
+}
+.first-cnt{
+   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+
+    
+}
+.text{
+    
+    height: 600px;
+    width: 40%;
+    margin: auto;
+    
+}
+
+.text h3{
+     
+     height: 30px;
+     text-align: center;
+     color: red;
+     margin-top: 50px;
+     font-size: x-large;
+}
+.text h1{
+   
+    height: 70px;
+    width:45%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: xx-large;
+
+}
+.text span{
+    color: rgb(17, 92, 122);
+}
+.text p{
+    
+    width: 90%;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.btn{
+    
+    height: 50px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:skyblue;
+    margin-left: 25%;
+    border: none;
+    
+}
+.btn h5{
+    width: 35%;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.analyze{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 32%;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.analyze span{
+    color: red;
+}
+
+
+
+.pic{
+   
+    height: 600px;
+    width: 40%;
+    margin: auto;
+    background-image: url('https://templatemo.com/templates/templatemo_562_space_dynamic/assets/images/banner-right-image.png');
+    background-repeat: no-repeat;
+}
+
+.second-cnt{
+    
+    height:500px;
+    background-image: url('https://templatemo.com/templates/templatemo_562_space_dynamic/assets/images/about-bg.png');
+}
+.footter{
+
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    padding-top:50px;
+
+}
