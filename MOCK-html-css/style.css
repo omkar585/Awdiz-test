@@ -10,7 +10,6 @@ body {
   color: #222;
 }
 
-
 header {
   /* border: 2px solid rgb(17, 171, 89); */
   border-bottom: 1px solid #ddd;
@@ -81,14 +80,11 @@ nav a {
   text-align: left;
 }
 
-.hero2>img{
-
-    /* border: 2px solid blue; */
-    margin-left: 19%;
-    margin-right: 5px;
-    width: 1200px;
-     
-
+.hero2 > img {
+  /* border: 2px solid blue; */
+  margin-left: 19%;
+  margin-right: 5px;
+  width: 1200px;
 }
 
 .hero h1 {
