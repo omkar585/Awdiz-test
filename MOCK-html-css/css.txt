@@ -1,0 +1,224 @@
+CSS — 20 Questions
+
+1.What is CSS? What are the different ways to apply CSS?
+=> CSS (Cascading Style Sheets) is used to style and design HTML web pages.
+   there are 3 ways to apply css:
+   1.inline css
+   2.internal css
+   3.external css
+
+
+
+
+2.Inline, Internal, and External CSS.
+=> 1.inline css - Used for applying a style to one specific elements
+   <h1 style="color: red;">Welcome</h1>
+   
+   2.internal css - Used when CSS is specific to one HTML page.
+    <style>
+    h1 {
+        color: blue;
+    }
+    </style>
+   
+   3.external css - Used when styles need to be shared across multiple pages.
+   <link rel="stylesheet" href="style.css">
+   h1{
+    color:"red";
+   }
+
+
+
+
+
+3.What is the CSS Box Model?
+=> The CSS Box Model describes how  HTML element is represented as a  box.
+which consist of Content ,Padding, Border ,Margin
+
+
+
+
+
+4.Content → Padding → Border → Margin.
+=>Content = actual text/image
+Padding = space between content and border
+Border = line around padding/content
+Margin = space outside the border
+
+
+
+
+
+
+5.What is the difference between margin and padding?
+=>Padding is the space inside an element.
+ Margin is the space outside an element.
+
+
+
+
+
+6.Explain CSS specificity. Which selector has higher priority?
+=>
+
+
+
+
+7.What is the difference between id, class, element, and universal selectors?
+=> id seletor: Targets an element with a specific ID.
+     #id {
+    color: red;
+     }
+
+
+  class selector: Can be used on multiple elements.
+  .class {
+    background: red;
+}
+
+  element selector : Targets HTML elements directly
+  p {
+    color: red;
+}
+  
+ universal selector : Targets all html elements 
+    *{
+        margin:0;
+        padding:0;
+    }
+
+
+
+
+
+8.What is the difference between display: none and visibility: hidden?
+=>display: none
+The element is removed from the page layout.
+
+visibility: hidden
+The element is invisible, but it still takes up space.
+
+
+
+
+
+9.Explain the different values of the CSS position property.
+=>static
+relative
+absolute
+fixed
+sticky
+
+
+
+
+
+10.static, relative, absolute, fixed, sticky.
+=>                                     
+ static   = Normal/default position                            
+ relative  =Moves relative to its normal position              
+ absolute = Positioned relative to a containing block          
+ fixed   =  Positioned relative to viewport                    
+  sticky   = Sticks during scrolling after reaching a threshold 
+
+
+
+
+
+11.What is the difference between position: relative and position: absolute?
+=>Relative
+The element remains in the normal document flow.
+
+Absolute
+The element is removed from normal document flow.
+It is positioned relative to its containing block.
+
+
+
+
+
+12.What is Flexbox? Explain its main properties.
+=> it is a CSS layout system used to arrange elements in one dimension — mainly in a row or column.
+  display: flex
+flex-direction
+justify-content
+align-items
+flex-wrap
+gap
+flex
+align-self
+
+
+
+
+
+13.display: flex, flex-direction, justify-content, align-items, flex-wrap, etc.
+=>display: flex
+Turns an element into a flex container.
+
+flex-direction
+Controls the main direction.
+
+justify-content
+Controls alignment along the main axis.
+
+align-items
+Controls alignment along the cross axis.
+
+flex-wrap
+Controls whether items can move onto multiple lines.
+
+gap
+Adds space between flex items.
+
+
+
+
+14.What is CSS Grid? How is it different from Flexbox?
+=>
+
+
+
+
+15.What is the difference between pseudo-classes and pseudo-elements?
+=>
+
+
+
+
+16.Examples: :hover, :focus vs ::before, ::after.
+=>  :hover
+    Applies when the mouse pointer is over an element.
+     
+
+17.What is the difference between px, %, em, rem, vh, and vw?
+=> 
+px = fixed CSS pixel
+% = percentage-based
+em = relative font-size unit
+rem = relative to root font size
+vh = viewport height
+vw = viewport width
+
+
+
+
+18.What are media queries? How do you create a responsive website?
+=> media queries are a CSS feature used to apply different styles based on conditions such as screen size, orientation, or other device characteristics.
+They are mainly used to make websites responsive.
+
+
+
+
+19.What is the difference between z-index and stacking order?
+=> Stacking order = overall order of overlapping elements
+z-index = property used to influence that ord
+ 
+
+
+ 
+20.What is the difference between relative, absolute, fixed, and sticky positioning, and when would you use each?
+=>  relative =	Moves relative to its normal position
+absolute =	Positioned relative to its containing block
+fixed =	Positioned relative to the viewport
+sticky =	Sticks during scrolling after reaching a threshold
