@@ -68,6 +68,23 @@
 
 // ---
 
+function longestSubstring(str) {
+  let result = "";
+
+  for (let char of str) {
+    if (result.includes(char)) {
+      result = result.slice(result.indexOf(char) + 1);
+    }
+
+    result += char;
+  }
+
+  return result.length;
+}
+
+console.log(longestSubstring("abcabcbb")); // 3
+console.log(longestSubstring("bbbbb"));    // 1
+
 
 
 
@@ -187,24 +204,6 @@ console.log(secondLargest([4, 1, 9, 7, 6]));    // 7
 // ```
 
 // ---
-
-function frequency(arr) {
-  let count = {};
-
-  for (let item of arr) {
-    if (count[item] === undefined) {
-      count[item] = 1;
-    } else {
-      count[item]++;
-    }
-  }
-
-  return count;
-}
-
-console.log(frequency([1, 2, 2, 3, 1, 1]));
-console.log(frequency([10, 20, 10, 30, 20, 40]));
-console.log(frequency([10, 20, 30, 40]));
 
 
 
