@@ -1,0 +1,145 @@
+// # ⚡ 20 JavaScript Theory Questions 
+ 
+// ### Fundamentals 
+ 
+// 1. **What is JavaScript? What are its main features?** 
+=> JavaScript is a programming language mainly used to make websites interactive and dynamic.
+main features :Easy to learn ,Dynamically typed ,Object-oriented.
+
+
+
+ 
+// 2. **What is the difference between `var`, `let`, and `const`?** 
+=>  var = Function scoped , Can be redeclare , Can be reassigned.
+
+    let = Block scoped , Cannot be redeclared in same scope , Can be reassigned.
+
+    const = Block scoped , Cannot be redeclared , Cannot be reassigned.
+
+
+ 
+// 3. **What are primitive and non-primitive data types in JavaScript?** 
+=>  Primitive: Store a single value.
+String
+Number
+Boolean
+Undefined
+Null
+BigInt
+Symbol 
+
+Non-primitive: Can store collections of data.
+Object
+Array
+Function
+ 
+
+// 4. **What is the difference between `==` and `===`?** 
+=>   == checks value after type conversion.
+
+     === checks value and type. 
+
+
+ 
+// 5. **What is type coercion in JavaScript?** 
+=>   
+
+
+ 
+// 6. **What is the difference between `null` and `undefined`?** 
+=>   undefined means a value has not been assigned.
+
+   null means we intentionally say there is no value.
+
+
+ 
+// 7. **What is the difference between `undefined` and `not defined`?** 
+=>    Undefined: Variable exists but has no value
+     
+      Not defined: Variable does not exist.
+
+
+ 
+// 8. **What are truthy and falsy values in JavaScript?** 
+=>    A truthy value behaves like true
+      
+       A falsy value behaves like false.
+ 
+// --- 
+ 
+// ### Functions & Scope 
+ 
+// 9. **What is the difference between a function declaration and function expression?** 
+=>  function declarations are hoisted, while function expressions are not usable before their assignment.
+
+
+ 
+// 10. **What are arrow functions? How are they different from normal functions?** 
+=>      Arrow functions are a shorter way to write functions,whilenormal funtion take time 
+
+
+ 
+// 11. **What is scope in JavaScript? Explain global, function, and block scope.** 
+=>    Scope means where a variable can be accessed 
+    Global scope: Available almost everywhere. 
+    Function scope: Available inside the function
+    Block scope: Available inside 
+
+
+
+ 
+// 12. **What is a closure in JavaScript? Give a real-world example.** 
+=>   A closure happens when an inner function remembers variables from its outer function even after the outer function has finished eg 
+     A counter or private variable that should not be directly accessible from outsid
+ 
+// 13. **What is hoisting in JavaScript?** 
+=>    Hoisting means JavaScript processes certain declarations before executing the code.
+ 
+// 14. **What is the `this` keyword in JavaScript?** 
+ =>    this refers to the object/context that a function is being called with.
+    
+
+
+
+// --- 
+ 
+// ### Advanced JavaScript  
+ 
+// 15. **What is a callback function?** 
+=>   callback is a function passed to another function as an argument and they are commonly used for asynchronous operations and events.
+
+
+ 
+// 16. **What are Promises in JavaScript? Explain `pending`, `fulfilled`, and `rejected`.** 
+=>      A Promise represents the future result of an asynchronous operation.
+        ending = still working
+        fulfilled = completed successfully
+        rejected = failed
+ 
+// 17. **What is `async/await` and how does it work with Promises?** 
+=>    async/await is an easier way to work with Promises . async makes a function return a Promise.
+      await waits for the Promise to finish.
+ 
+// 18. **What is the JavaScript Event Loop? Explain the Call Stack, Web APIs, Callback Queue, and Microtask Queue.** 
+=>    
+ 
+// 19. **What is the difference between shallow copy and deep copy?** 
+=>     Shallow = it is nested data can still be connected.
+        Deep = it is completely separate copy
+ 
+// 20. **What are `map()`, `filter()`, `reduce()`, `forEach()`, and `find()`? When would you use each?**  give simples ans
+=> map():
+   Used to create a new array by changing every element.
+
+   filter():
+   Used to select elements that match a condition
+
+   reduce():
+   Used to combine values into one result.
+
+
+   forEach():
+   Used to run something for every element.
+
+   find():
+   Used to find the first matching element.
