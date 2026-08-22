@@ -1,0 +1,38 @@
+1. Why did you use `useMemo` here?
+=>  useMemo is used to avoid doing the same calculation again on every render.
+    It remembers the calculated value and only recalculates when its dependencies change
+
+
+2. Why did you use `useCallback`?
+=> useCallback remembers a function so that a new function is not created on every render
+   It is especially useful when passing functions to child components
+
+
+3. Why is `ProductCard` wrapped with `React.memo`?
+=> it prevents from re-rendering if its props have not changed. This can improve performance
+
+
+4. Why use `useRef` instead of `useState` for focusing the input?
+=>  useRef lets us access the input directly. It does not re-render the component, so it's good for things like focusing an input
+
+5. Why use Context instead of passing props?
+=> it helps us to avoid prop drilling. Instead of passing data through many components, components can directly get the data from Context
+
+6. What happens if the API request fails? 
+=>  it  goes into the catch block (if we handle it), and we can show an error message to the user. We can also set an error state
+
+
+7. Why is the API call inside `useEffect`?
+=> API calls are side effects. useEffect is designed to run side effects after the component renders
+
+
+8. What happens if `useCallback` is removed?
+=>  new function is created on every render. If that function is passed to a React.memo child, the child may re-render unnecessarily
+
+9. What happens if `React.memo` is removed?
+=> The child component can re-render whenever its parent re-renders, even if its props haven't changed
+
+
+10. What is the difference between `useMemo` and `useCallback`?
+=>  useMemo = remembers a value
+    useCallback = remembers a function
